@@ -7,3 +7,7 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: darkblue
 }
+.img{
+    width: 150px;
+    height: 150px
+}
