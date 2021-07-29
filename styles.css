@@ -1,12 +1,15 @@
 body {
-    background-color: lightblue;
-    
+    background: lightblue;
+    margin: 1 rem;
+    padding: 1 rem; 
+
 }
 
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: darkblue
 }
+
 .img{
     width: 150px;
     height: 150px
