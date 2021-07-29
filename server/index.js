@@ -6,7 +6,7 @@ const app = express()
 
 // app.use('/public/images' ,express.static(path.join(_dirname, '../public/images')))
 
-app.use('public/css',express.static(path.join(__dirname +'..public/css')));
+app.use('public/css',express.static(path.join(__dirname + '..public/css')))
 
 app.get('/', (req,res) => {
     res.sendFile(path.join(__dirname, '../index.html'))
